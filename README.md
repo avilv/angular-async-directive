@@ -1,7 +1,7 @@
 # angular-async-directive
 
-[![npm version](https://badge.fury.io/js/%40aviellv%2Fangular-async-directive.svg)](https://badge.fury.io/js/%40aviellv%2Fangular-async-directive)
-[![Build Status](https://travis-ci.org/avilv/angular-async-directive.svg?branch=master)](https://travis-ci.org/avilv/angular-async-directive)
+[![npm version](https://badge.fury.io/js/%40aviellv%2Fangular-async-directive.svg?killcache=1)](https://badge.fury.io/js/%40aviellv%2Fangular-async-directive)
+[![Build Status](https://travis-ci.org/avilv/angular-async-directive.svg?branch=master&killcache=1)](https://travis-ci.org/avilv/angular-async-directive)
 
 An angular (6+) directive for handling asynchronous requests (observables) in a fluent way
 
