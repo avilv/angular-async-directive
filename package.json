@@ -1,0 +1,49 @@
+{
+  "name": "@aviellv/angular-async-directive",
+  "version": "1.0.0",
+  "description": "An angular (6+) directive for handling observables in a fluent way",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avilv/angular-async-directive.git"
+  },
+  "keywords": [
+    "rxjs",
+    "rxjs6",
+    "rxjs6+",
+    "rxjs-pipe",
+    "pipe",
+    "rxjs6-pipe",
+    "rxjs6+-pipe",
+    "rxjs-async-request",
+    "async-request",
+    "async",
+    "observable"
+  ],
+  "author": "Aviel Lavie <avielbt@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/avilv/angular-async-directive/issues"
+  },
+  "homepage": "https://github.com/avilv/angular-async-directive#readme",
+  "files": [
+    "dist/**/*"
+  ],
+  "dependencies": {
+    "@angular/core": "^6.1.10",
+    "@aviellv/async-request-rxjs-pipe": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.14",
+    "@types/node": "^10.9.1",
+    "del-cli": "^1.1.0",
+    "jest": "^23.5.0",
+    "jest-preset-typescript": "^1.2.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.0.1"
+  }
+}
