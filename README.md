@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/%40aviellv%2Fangular-async-directive.svg)](https://badge.fury.io/js/%40aviellv%2Fangular-async-directive)
 [![Build Status](https://travis-ci.org/avilv/angular-async-directive.svg?branch=master)](https://travis-ci.org/avilv/angular-async-directive)
 
-A pipe function for rxjs 6+ which emits a three-state 'async-request' with a typed loading/success/error  status object
+An angular (6+) directive for handling asynchronous requests (observables) in a fluent way
 
 ## Motivation
 
@@ -18,7 +18,6 @@ This directive is meant to ease this process and allow a quick way to handle all
     this.httpQuery$ = this.http.get<string>("./api/text");
     
 ```
-
 
 ```html
 
