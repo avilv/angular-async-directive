@@ -34,7 +34,7 @@
     "dist/**/*"
   ],
   "dependencies": {
-    "@angular/core": "^6.1.10",
+    "@angular/core": "^11.0.5",
     "@aviellv/async-request-rxjs-pipe": "^1.0.1"
   },
   "devDependencies": {
